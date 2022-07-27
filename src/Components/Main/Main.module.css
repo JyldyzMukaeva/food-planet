@@ -1,0 +1,26 @@
+.main{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    color: #254F4C;
+    font-family: Roboto;
+    font-size: 36px;
+}
+
+p{
+    color:#1D3130;
+    font-family: Roboto;
+    font-size: 16px;
+}
+button{
+    background-color: #FF583E;
+    border-radius: 100px;
+    width: 216px;
+    height: 49px;
+    color: white;
+    font-size: 14px;
+    font-family:Roboto;
+    border: none;
+}
