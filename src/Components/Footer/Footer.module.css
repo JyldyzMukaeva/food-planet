@@ -1,0 +1,30 @@
+.footer{
+    background-color: #254F4C;
+    display: flex;
+    justify-content: center;
+    height: 152px;
+    align-items: center;
+    align-content: space-evenly;
+}
+
+.footer ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 25px;
+    font-size: 16px;
+    font-family: Roboto, serif;
+
+
+}
+
+.logo1{
+    width: 224px;
+    height: 40px;
+    /*margin-left: 200px;*/
+    /*margin-top: 24px;*/
+
+}
+.footer a{
+    color: white;
+}
+

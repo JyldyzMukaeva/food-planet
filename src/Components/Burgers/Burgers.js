@@ -5,6 +5,7 @@ import burger2 from  "../../media/Images/burger2.png";
 import burger3 from  "../../media/Images/burger3.png";
 import burger4 from  "../../media/Images/burger4.png";
 
+
 const Burgers = () => {
     return (
         <>
