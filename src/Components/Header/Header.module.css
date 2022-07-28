@@ -2,6 +2,8 @@
     background-color: white;
     display: flex;
     justify-content: center;
+    align-items: center;
+    align-content: space-evenly;
 }
 
 .header ul li{

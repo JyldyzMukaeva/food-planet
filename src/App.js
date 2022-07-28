@@ -6,6 +6,7 @@ import NewProducts from "./Components/NewProducts/NewProducts";
 import Burgers from "./Components/Burgers/Burgers";
 import Menu from "./Components/Menu/Menu";
 import Footer from "./Components/Footer/Footer";
+import Pizza from "./Components/Pizza/Pizza";
 
 
 
@@ -17,6 +18,7 @@ function App() {
         <Main/>
         <NewProducts/>
         <Burgers/>
+        <Pizza/>
         <Menu/>
         <Footer/>
 

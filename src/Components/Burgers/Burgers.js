@@ -1,23 +1,35 @@
 import React from 'react';
 import styles from "./Burgers.module.css"
-import burger1 from  "../../media/Images/burger1.png";
-import burger2 from  "../../media/Images/burger2.png";
-import burger3 from  "../../media/Images/burger3.png";
-import burger4 from  "../../media/Images/burger4.png";
+import {burgersArray} from "../../constants";
+
 
 
 const Burgers = () => {
-    return (
-        <>
-        <div className={styles.burgers}>
-            <div><img src={burger1} alt=""/></div>
-            <div><img src={burger2} alt=""/></div>
-            <div><img src={burger3} alt=""/></div>
-            <div><img src={burger4} alt=""/></div>
-        </div>
 
-        </>
-    );
-};
 
+        const burgers = burgersArray.map(item => (
+            <div className={styles.burgerBox}>
+                 <img src={item.image} alt=""/>
+                 <h1>{item.name}</h1>
+                <p>{item.text}</p>
+                 <p>{item.price}<span>сом</span></p>
+                <div className={styles.btn1}>
+                    <button>-</button>
+                    <span>1</span>
+                    <button>+</button>
+                </div>
+                <div className={styles.btn2}>
+                    <button>В КОРЗИНУ</button>
+                </div>
+
+            </div>
+            )
+        );
+return (
+    <div className={styles.burgers}>
+        {burgers}
+    </div>
+);
+}
 export default Burgers;
+

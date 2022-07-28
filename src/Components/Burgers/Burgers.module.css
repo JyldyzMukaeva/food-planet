@@ -1,6 +1,60 @@
-.burgers{
+.burgers {
     background-color: white;
     display: flex;
     justify-content: center;
+    text-align: center;
+    position: relative;
+}
+.burgers img{
+    position: relative;
+    top: -50px;
 }
 
+.burgers h1{
+    color: white;
+    font-size: 20px;
+    font-family: Roboto, serif;
+}
+
+.burgers p{
+    color: white;
+    font-size: 14px;
+    font-family: Roboto, serif;
+}
+
+.burgers span{
+    color: white;
+}
+
+
+.burgerBox{
+    background-color: #2B4241;
+    width: 264px;
+    height: 348.13px;
+    border-radius: 40px;
+    margin-right: 32px;
+
+
+}
+
+.btn2 button{
+    background-color: #FF583E;
+    border-radius: 40px;
+    width: 200px;
+    height: 48.3px;
+    color: white;
+    font-size: 14px;
+    font-family: Roboto, serif;
+    border: none;
+}
+
+.btn1 button{
+    background-color: transparent;
+    border-radius: 100px;
+    width: 16px;
+
+    color: #FF583E;
+    font-size: 14px;
+    font-family: Roboto, serif;
+    border: 1px none #FF583E;;
+}

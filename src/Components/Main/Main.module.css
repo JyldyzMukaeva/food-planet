@@ -5,7 +5,7 @@
 }
 h1{
     color: #254F4C;
-    font-family: Roboto;
+    font-family: Roboto, serif;
     font-size: 36px;
 }
 
@@ -14,7 +14,7 @@ p{
     font-family: Roboto;
     font-size: 16px;
 }
-button{
+.main button{
     background-color: #FF583E;
     border-radius: 100px;
     width: 216px;
