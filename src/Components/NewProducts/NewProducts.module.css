@@ -1,25 +1,24 @@
 .newProducts{
     background-color: white;
     display: flex;
-    justify-content: center;
+    align-items: center;
+
 }
 
 .newProducts ul li{
     list-style: none;
     display: inline;
-    margin-right: 25px;
+    margin-right: 16px;
     font-size: 16px;
-    font-family: Roboto;
+    font-family: Roboto, serif;
 
 }
-.message1{
-    font-size: 36px;
-    font-family: Roboto, serif;
-    width: 403px;
-    height: 127px;
+
+.new a{
+    font-size: 25px;
+    font-family: Roboto,serif;
     color: #254F4C;
-}
-.message2{
-    font-size: 16px;
-    font-family: Roboto, serif;
+    margin-top: 89px;
+    margin-left: 224px;
+    margin-right: 164px;
 }

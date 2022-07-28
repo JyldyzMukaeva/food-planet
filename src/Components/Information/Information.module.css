@@ -1,0 +1,15 @@
+.information{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.information h1{
+    font-size: 20px;
+    font-family: Roboto, serif;
+}
+
+.information p{
+    font-family: Roboto, serif;
+    font-size: 14px;
+}

@@ -4,7 +4,15 @@
     justify-content: center;
     text-align: center;
     flex-wrap: wrap;
+    position: relative;
+    margin-top: 176px;
+    /*margin-left: 224px;*/
 
+}
+
+.pizza img{
+    position: relative;
+    top:-50px;
 }
 
 .pizza h1{
@@ -29,12 +37,22 @@
     width: 264px;
     height: 338px;
     border-radius: 40px;
-    margin-right: 32px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 40px;
+    /*margin-top: 94px;*/
+    margin-right: 32px;
+
 }
 
+.btn1 button{
+    background-color: transparent;
+    border-radius: 100px;
+    width: 16px;
 
+    color: #FF583E;
+    font-size: 14px;
+    font-family: Roboto, serif;
+    border: 1px none #FF583E;
+}
 
 .btn2 button{
     background-color: #254F4C;;
@@ -47,13 +65,13 @@
     border: none;
 }
 
-.btn1 button{
-    background-color: transparent;
-    border-radius: 100px;
-    width: 16px;
-
+.btn3 button{
+    background-color: white;
+    border-radius: 40px;
+    width: 200px;
+    height: 48.3px;
     color: #FF583E;
     font-size: 14px;
     font-family: Roboto, serif;
-    border: 1px none #FF583E;
+    border: 1px solid #FF583E;
 }

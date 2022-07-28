@@ -8,9 +8,10 @@ const NewProducts = () => {
             <>
 
                 <div className={styles.newProducts}>
-
+                    <div className={styles.new}>
+                    <span><a href="/">Новинки</a></span>
+                    </div>
                     <ul>
-                        <li><a href="/">Новинки</a></li>
                         <li><a href="#">Пицца</a></li>
                         <li><a href="#">Бургер</a></li>
                         <li><a href="#">Суши</a></li>

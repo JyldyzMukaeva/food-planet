@@ -1,0 +1,28 @@
+.feedback{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.feedbackBox{
+    border: 2px solid #1D3130;
+    border-radius: 40px;
+    margin-right: 34px;
+    width: 248px;
+    height: 304px;
+}
+
+.feedbackBox h1{
+    font-size: 14px;
+    color: #3B7976;
+}
+
+.feedback p{
+    font-size: 14px;
+    color: #061817;
+}
+
+.feedback h1{
+    font-size: 25px;
+}

@@ -4,10 +4,12 @@
     justify-content: center;
     text-align: center;
     position: relative;
+    margin-top: 88.75px;
 }
 .burgers img{
     position: relative;
     top: -50px;
+
 }
 
 .burgers h1{

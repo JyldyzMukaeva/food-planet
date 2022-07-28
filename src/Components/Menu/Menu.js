@@ -7,9 +7,11 @@ const Menu = () => {
         <>
 
             <div className={styles.menu}>
-
+                <div className={styles.menu1}>
+                    <span><a href="/">Меню</a></span>
+                </div>
                 <ul>
-                    <li><a href="/">Меню</a></li>
+
                     <li><a href="#">Пицца</a></li>
                     <li><a href="#">Бургер</a></li>
                     <li><a href="#">Суши</a></li>

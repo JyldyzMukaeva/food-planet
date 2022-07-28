@@ -3,24 +3,37 @@
     display: flex;
     justify-content: center;
 }
-h1{
+.message1 h1{
     color: #254F4C;
     font-family: Roboto, serif;
     font-size: 36px;
+    font-weight: 900;
+    margin-top: 144px;
+    margin-left: 200px;
+    width: 403px;
+    height: 127px;
+
 }
 
-p{
+
+.message1 p{
     color:#1D3130;
-    font-family: Roboto;
+    font-family: Roboto, serif;
     font-size: 16px;
+    width: 416px;
+    height: 48px;
+    margin-top: 16px;
+    margin-left:203px ;
 }
-.main button{
+.message1 button{
     background-color: #FF583E;
     border-radius: 100px;
     width: 216px;
     height: 49px;
     color: white;
     font-size: 14px;
-    font-family:Roboto;
+    font-family:Roboto, serif;
     border: none;
+    margin-top: 16px;
+    margin-left: 200px;
 }

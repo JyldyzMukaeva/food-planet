@@ -8,7 +8,7 @@ const Main = () => {
         <>
         <div className={styles.main}>
 
-        <div>
+        <div className={styles.message1}>
             <h1>Доставка вкусной еды до 30 минут + напиток в подарок!</h1>
             <p>Доставим заказ вовремя и можете рассчитывать, что еда будет доставлен всегда горячим и ароматным.</p>
             <button>Перейти в меню <img src={arrow2} alt=""/></button>

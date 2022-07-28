@@ -7,6 +7,8 @@ import Burgers from "./Components/Burgers/Burgers";
 import Menu from "./Components/Menu/Menu";
 import Footer from "./Components/Footer/Footer";
 import Pizza from "./Components/Pizza/Pizza";
+import Information from "./Components/Information/Information";
+import Feedback from "./Components/Feedback/Feedback";
 
 
 
@@ -18,8 +20,10 @@ function App() {
         <Main/>
         <NewProducts/>
         <Burgers/>
-        <Pizza/>
         <Menu/>
+        <Pizza/>
+        <Information/>
+        <Feedback/>
         <Footer/>
 
       </>

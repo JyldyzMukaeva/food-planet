@@ -8,6 +8,7 @@ const Pizza = () => {
     const pizza = pizzaArray.map(item => (
 
             <div className={styles.pizzaBox}>
+
                 <img src={item.image} alt=""/>
                 <h1>{item.name}</h1>
                 <p>{item.text}</p>
@@ -31,9 +32,20 @@ const Pizza = () => {
         <div className={styles.pizza}>
             {pizza}
 
-        <div>
-            <button>ПОКАЗАТЬ ЕЩЕ</button>
-        </div>
+            <div>
+                <span>Сортировать по:</span>
+                <select name="" id="">
+                    <option disabled>По умолчанию</option>
+                    {/*<img src={} alt=""/>*/}
+                    <option value="Мексиканская">Мексиканская</option>
+                    <option value="Мексиканская">Мексиканская</option>
+                    <option value="Мексиканская">Мексиканская</option>
+                </select>
+            </div>
+
+            <div>
+               <button>ПОКАЗАТЬ ЕЩЕ</button>
+            </div>
 
         </div>
 
