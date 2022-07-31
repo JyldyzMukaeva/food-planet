@@ -1,9 +1,9 @@
 import React from 'react';
-import styles from "./Main.module.css";
-import burger from "../../media/Images/burger.jpg";
-import arrow2 from "../../media/Icons/arrow2.svg"
+import styles from "./MainBlock.module.css";
+import burger from "../../../media/Images/burger.jpg";
+import arrow2 from "../../../media/Icons/arrow2.svg"
 
-const Main = () => {
+const MainBlock = () => {
     return (
         <>
         <div className={styles.main}>
@@ -24,4 +24,4 @@ const Main = () => {
     );
 };
 
-export default Main;
+export default MainBlock;

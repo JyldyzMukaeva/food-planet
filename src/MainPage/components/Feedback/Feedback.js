@@ -1,6 +1,6 @@
 import React from 'react';
-import {feedbackArray} from "../../constants";
-import styles from "../Feedback/Feedback.module.css";
+import {feedbackArray} from "../../../constants";
+import styles from "./Feedback.module.css";
 
 const Feedback = () => {
 

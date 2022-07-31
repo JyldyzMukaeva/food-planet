@@ -1,14 +1,14 @@
 import React from "react";
 import './App.css';
 import Header from "./Components/Header/Header";
-import Main from "./Components/Main/Main";
-import NewProducts from "./Components/NewProducts/NewProducts";
-import Burgers from "./Components/Burgers/Burgers";
-import Menu from "./Components/Menu/Menu";
+import MainBlock from "./MainPage/components/MainBlock/MainBlock";
+import NewProducts from "./MainPage/components/NewProducts/NewProducts";
+import Burgers from "./MainPage/components/Burgers/Burgers";
+import Menu from "./MainPage/components/Menu/Menu";
 import Footer from "./Components/Footer/Footer";
-import Pizza from "./Components/Pizza/Pizza";
-import Information from "./Components/Information/Information";
-import Feedback from "./Components/Feedback/Feedback";
+import Pizza from "./MainPage/components/Pizza/Pizza";
+import Information from "./MainPage/components/Information/Information";
+import Feedback from "./MainPage/components/Feedback/Feedback";
 
 
 
@@ -17,7 +17,7 @@ function App() {
   return (
       <>
         <Header/>
-        <Main/>
+        <MainBlock/>
         <NewProducts/>
         <Burgers/>
         <Menu/>

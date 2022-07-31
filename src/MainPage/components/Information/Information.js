@@ -1,6 +1,6 @@
 import React from 'react';
-import {informationArray} from "../../constants";
-import styles from "../Information/Information.module.css";
+import {informationArray} from "../../../constants";
+import styles from "./Information.module.css";
 
 const Information = () => {
 

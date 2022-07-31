@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from "./Pizza.module.css";
-import {pizzaArray} from "../../constants";
+import {pizzaArray} from "../../../constants";
 
 const Pizza = () => {
 
@@ -29,19 +29,21 @@ const Pizza = () => {
     );
 
     return (
+        <>
+        <div>
+            <span>Сортировать по:</span>
+            <select name="" id="">
+                <option disabled>По умолчанию</option>
+                {/*<img src={} alt=""/>*/}
+                <option value="Мексиканская">Мексиканская</option>
+                <option value="Мексиканская">Мексиканская</option>
+                <option value="Мексиканская">Мексиканская</option>
+            </select>
+        </div>
         <div className={styles.pizza}>
             {pizza}
 
-            <div>
-                <span>Сортировать по:</span>
-                <select name="" id="">
-                    <option disabled>По умолчанию</option>
-                    {/*<img src={} alt=""/>*/}
-                    <option value="Мексиканская">Мексиканская</option>
-                    <option value="Мексиканская">Мексиканская</option>
-                    <option value="Мексиканская">Мексиканская</option>
-                </select>
-            </div>
+
 
             <div>
                <button>ПОКАЗАТЬ ЕЩЕ</button>
@@ -49,7 +51,7 @@ const Pizza = () => {
 
         </div>
 
-
+</>
     );
 
 }
