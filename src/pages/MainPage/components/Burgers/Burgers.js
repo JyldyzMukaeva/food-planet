@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from "./Burgers.module.css"
-import {burgersArray} from "../../../constants";
+import {burgersArray} from "../../../../constants";
 
 
 

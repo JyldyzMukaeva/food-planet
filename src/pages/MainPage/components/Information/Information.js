@@ -1,5 +1,5 @@
 import React from 'react';
-import {informationArray} from "../../../constants";
+import {informationArray} from "../../../../constants";
 import styles from "./Information.module.css";
 
 const Information = () => {
@@ -16,13 +16,15 @@ const Information = () => {
         )
     );
     return (
-
-        <div className={styles.information}>
-            <div>
+        <>
+            <div className={styles.why}>
                 <h1>Почему выбирают нас:</h1>
             </div>
-            {information}
-        </div>
+
+            <div className={styles.information}>
+                {information}
+            </div>
+        </>
     );
 }
 export default Information;

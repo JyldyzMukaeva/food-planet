@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from "./MainBlock.module.css";
-import burger from "../../../media/Images/burger.jpg";
-import arrow2 from "../../../media/Icons/arrow2.svg"
+import burger from "../../../../media/Images/burger.jpg";
+import arrow2 from "../../../../media/Icons/arrow2.svg"
 
 const MainBlock = () => {
     return (

@@ -1,14 +1,14 @@
 import React from "react";
 import './App.css';
 import Header from "./Components/Header/Header";
-import MainBlock from "./MainPage/components/MainBlock/MainBlock";
-import NewProducts from "./MainPage/components/NewProducts/NewProducts";
-import Burgers from "./MainPage/components/Burgers/Burgers";
-import Menu from "./MainPage/components/Menu/Menu";
+import MainBlock from "./pages/MainPage/components/MainBlock/MainBlock";
+import NewProducts from "./pages/MainPage/components/NewProducts/NewProducts";
+import Burgers from "./pages/MainPage/components/Burgers/Burgers";
+import Menu from "./pages/MainPage/components/Menu/Menu";
 import Footer from "./Components/Footer/Footer";
-import Pizza from "./MainPage/components/Pizza/Pizza";
-import Information from "./MainPage/components/Information/Information";
-import Feedback from "./MainPage/components/Feedback/Feedback";
+import Pizza from "./pages/MainPage/components/Pizza/Pizza";
+import Information from "./pages/MainPage/components/Information/Information";
+import Feedback from "./pages/MainPage/components/Feedback/Feedback";
 
 
 

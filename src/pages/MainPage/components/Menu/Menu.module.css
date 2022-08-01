@@ -1,11 +1,13 @@
-.newProducts{
+.menu{
     background-color: white;
     display: flex;
+    text-align: center;
+    margin-top: 49.13px;
     align-items: center;
 
 }
 
-.newProducts ul li{
+.menu ul li{
     list-style: none;
     display: inline;
     margin-right: 16px;
@@ -13,12 +15,10 @@
     font-family: Roboto, serif;
 
 }
-
-.new a{
+.menu1 a{
     font-size: 25px;
     font-family: Roboto,serif;
     color: #254F4C;
-    margin-top: 89px;
-    margin-left: 224px;
+    margin-left: 200px;
     margin-right: 164px;
 }
