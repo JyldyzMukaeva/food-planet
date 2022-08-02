@@ -1,8 +1,9 @@
-.feedback{
+.feedback2{
     background-color: white;
     display: flex;
     justify-content: center;
     text-align: center;
+    margin-top: 49px;
 }
 
 .feedbackBox{
@@ -23,6 +24,9 @@
     color: #061817;
 }
 
-.feedback h1{
+.feedback1 h1{
     font-size: 25px;
+    color: #254F4C;
+    font-family: Roboto, serif;
+    margin-top: 56px;
 }

@@ -2,23 +2,19 @@
     background-color: white;
     display: inline-flex;
     justify-content: center;
-    align-content: space-around;
-    margin-left: 224px;
     text-align: center;
 }
 .information div{
-    width: 200px;
+    width: 256px;
     margin-top: 42px;
     margin-right: 32px;
-
-
 }
 .why h1{
-    font-size: 20px;
+    font-size: 25px;
     font-family: Roboto, serif;
     color: #254F4C;
     margin-top: 42.29px;
-    margin-left: 224px;
+
 }
 
 .information h1{

@@ -17,13 +17,17 @@ const Feedback = () => {
         )
     );
     return (
+        <>
 
-        <div className={styles.feedback}>
-            <div>
+            <div className={styles.feedback1}>
                 <h1>Отзывы</h1>
             </div>
-            {feedback}
-        </div>
+
+             <div className={styles.feedback2}>
+                 {feedback}
+             </div>
+
+        </>
     );
 }
 export default Feedback;

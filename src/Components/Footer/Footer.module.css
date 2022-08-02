@@ -5,6 +5,8 @@
     height: 152px;
     align-items: center;
     align-content: space-evenly;
+    margin-top: 88px;
+
 }
 
 .footer ul li{
@@ -20,10 +22,9 @@
 .logo1{
     width: 224px;
     height: 40px;
-    /*margin-left: 200px;*/
-    /*margin-top: 24px;*/
-
+    margin-left: 200px;
 }
+
 .footer a{
     color: white;
 }

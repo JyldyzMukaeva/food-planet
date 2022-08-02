@@ -76,12 +76,13 @@
     font-family: Roboto, serif;
     border: 1px solid #FF583E;
     margin-top: 43.42px;
-    margin-left: 700px;
+    margin-left: 500px;
 }
 
 .choose{
+    display: flex;
     margin-top: 24px;
-    margin-left: 1072px;
+    margin-left: 910px;
 
 }
 .choose span{

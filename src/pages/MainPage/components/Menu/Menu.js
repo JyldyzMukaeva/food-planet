@@ -8,8 +8,9 @@ const Menu = () => {
 
             <div className={styles.menu}>
                 <div className={styles.menu1}>
-                    <span><a href="/">Меню</a></span>
+                    <a href="/">Меню</a>
                 </div>
+                <div className={styles.menu2}>
                 <ul>
 
                     <li><a href="#">Пицца</a></li>
@@ -20,6 +21,7 @@ const Menu = () => {
                     <li><a href="#">Десерты</a></li>
                     <li><a href="#">Напитки</a></li>
                 </ul>
+                </div>
 
             </div>
 
