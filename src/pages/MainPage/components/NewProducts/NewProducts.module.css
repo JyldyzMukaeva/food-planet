@@ -1,7 +1,7 @@
 .newProducts{
     background-color: white;
     display: flex;
-    align-items: center;
+
 
 }
 
@@ -19,6 +19,5 @@
     font-family: Roboto,serif;
     color: #254F4C;
     margin-top: 89px;
-    margin-left: 200px;
-    margin-right: 164px;
+    /*margin-right: 164px;*/
 }
