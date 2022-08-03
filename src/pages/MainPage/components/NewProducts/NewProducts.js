@@ -5,26 +5,21 @@ import styles from "./NewProducts.module.css";
 const NewProducts = () => {
     return (
 
-            <>
+
 
                 <div className={styles.newProducts}>
-                    <div className={styles.new1}>
-                    <span><a href="/">Новинки</a></span>
-                    </div>
-                    <div className={styles.new2}>
-                    <ul>
-                        <li><a href="#">Пицца</a></li>
-                        <li><a href="#">Бургер</a></li>
-                        <li><a href="#">Суши</a></li>
-                        <li><a href="#">Роллы</a></li>
-                        <li><a href="#">Салаты</a></li>
-                        <li><a href="#">Десерты</a></li>
-                        <li><a href="#">Напитки</a></li>
-                    </ul>
-                    </div>
+                        <h3>Новинки</h3>
+                        <p className={styles.span}><a href="#">Пицца</a></p>
+                        <p><a href="#">Бургер</a></p>
+                        <p><a href="#">Суши</a></p>
+                        <p><a href="#">Роллы</a></p>
+                        <p><a href="#">Салаты</a></p>
+                        <p><a href="#">Десерты</a></p>
+                        <p><a href="#">Напитки</a></p>
+
                 </div>
 
-            </>
+
 
     );
 };
