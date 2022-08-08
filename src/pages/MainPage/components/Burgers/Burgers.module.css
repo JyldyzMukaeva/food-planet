@@ -1,3 +1,4 @@
+
 .burgers {
     background-color: white;
     display: flex;
@@ -9,11 +10,12 @@
 }
 .burgers img{
     position: relative;
-    top: -50px;
+    top: -30px;
 
 }
 
 .burgers h1{
+
     color: white;
     font-size: 20px;
     font-family: Roboto, serif;
@@ -33,9 +35,13 @@
 .burgerBox{
     background-color: #2B4241;
     width: 264px;
-    height: 348.13px;
+    height: 348px;
     border-radius: 40px;
     margin-right: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
 
 
 }
