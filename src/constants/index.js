@@ -20,6 +20,8 @@ import menu from "../media/Images/menu.png";
 import delivery2 from "../media/Images/delivery2.png";
 
 import userphoto from "../media/Images/userphoto.png";
+import frame from "../media/Images/frame.png";
+import pen from "../media/Images/pen.png";
 
 export const burgersArray = [
     {
@@ -164,7 +166,9 @@ export const informationArray = [
 export const feedbackArray = [
     {
         image:[userphoto],
+        image1:[frame],
         name:"Сергей",
+        image2:[pen],
         text:"Большое спасибо! 5 пицц доставили даже быстрее чем планировалось." +
             "Пицца была горячая и всему коллективу понравилась! День Рождения прошел отлично! :)",
         date:"02.07.2020"
@@ -172,19 +176,25 @@ export const feedbackArray = [
 
     {
         image:[userphoto],
+        image1:[frame],
         name:"Сергей",
+        image2:[pen],
         text:"Очень вкусные роллы Хаки, всем рекомендую! заказали в первый раз и теперь станем постоянными клиентами! Спасибо!",
         date:"02.07.2020"
     },
     {
         image:[userphoto],
+        image1:[frame],
         name:"Сергей",
+        image2:[pen],
         text:"Очень избирателен в еде, и Уже в третий раз не разочаровываюсь в Food Planet, советую всем! Жена тоже довольна!",
         date:"02.07.2020"
     },
     {
         image:[userphoto],
+        image1:[frame],
         name:"Сергей",
+        image2:[pen],
         text:"Хочу поблагодарить за бургер! Очень вкусненький, в меру остренький. Спасибо, удивили!)",
         date:"02.07.2020"
     }

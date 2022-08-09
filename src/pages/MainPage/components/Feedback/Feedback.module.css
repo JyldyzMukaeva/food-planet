@@ -1,32 +1,63 @@
+.feedbackBoxParent{
+    width: 248px;
+    height: 304px;
+}
+
+.feedbackBox{
+    /*position: absolute;*/
+    /*top:-50px;*/
+    position: relative;
+    /*border-radius: 40px;*/
+    /*margin-right: 34px;*/
+
+
+}
+
 .feedback2{
     background-color: white;
     display: flex;
     justify-content: center;
     text-align: center;
     margin-top: 49px;
+    position: relative;
+    /*padding-left: 10px;*/
+
+}
+.feedback1{
+    position: relative;
+
 }
 
-.feedbackBox{
-    border: 2px solid #1D3130;
-    border-radius: 40px;
-    margin-right: 34px;
-    width: 248px;
-    height: 304px;
-}
 
-.feedbackBox h1{
+
+.feedbackBoxChild{
+    position: relative;
+    top: -280px;
+
+
+}
+.feedbackBoxChild h1{
     font-size: 14px;
     color: #3B7976;
+
 }
 
-.feedback p{
+.feedbackBoxChild p{
     font-size: 14px;
     color: #061817;
+    text-align: center;
+
 }
 
-.feedback1 h1{
-    font-size: 25px;
-    color: #254F4C;
-    font-family: Roboto, serif;
-    margin-top: 56px;
+/*.feedback1 h1{*/
+/*    font-size: 25px;*/
+/*    color: #254F4C;*/
+/*    font-family: Roboto, serif;*/
+/*    margin-top: 56px;*/
+/*}*/
+
+.feedbackBoxChild .date{
+    color: #3B7976;
+    font-size: 14px;
+
 }

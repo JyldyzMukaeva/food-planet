@@ -31,24 +31,24 @@ const Pizza = () => {
     return (
         <>
 
-        <div className={styles.choose}>
-            <span>Сортировать по:</span>
-            <select name="" id="">
-                <option>По умолчанию</option>
-                {/*<img src={} alt=""/>*/}
-                <option value="Мексиканская">Мексиканская</option>
-                <option value="Мексиканская">Мексиканская</option>
-                <option value="Мексиканская">Мексиканская</option>
-            </select>
-        </div>
-        <div className={styles.pizza}>
-            {pizza}
-        </div>
+            <div className={styles.choose}>
+                <span>Сортировать по:</span>
+                <select name="" id="">
+                    <option>По умолчанию</option>
+                    {/*<img src={} alt=""/>*/}
+                    <option value="Мексиканская">Мексиканская</option>
+                    <option value="Мексиканская">Мексиканская</option>
+                    <option value="Мексиканская">Мексиканская</option>
+                </select>
+            </div>
+            <div className={styles.pizza}>
+                {pizza}
+            </div>
             <div className={styles.btn3}>
                 <button>ПОКАЗАТЬ ЕЩЕ</button>
             </div>
 
-</>
+        </>
     );
 
 }

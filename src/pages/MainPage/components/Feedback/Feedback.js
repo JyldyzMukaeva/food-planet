@@ -8,11 +8,14 @@ const Feedback = () => {
 
     const feedback = feedbackArray.map(item => (
 
-            <div className={styles.feedbackBox}>
+            <div className={styles.feedbackBoxParent}>
+                <img className={styles.feedbackBox} src={item.image1} alt=""/>
+                <div className={styles.feedbackBoxChild}>
                 <img src={item.image} alt=""/>
-                <h1>{item.name}</h1>
+                <h1>{item.name}<img src={item.image2} alt=""/></h1>
                 <p>{item.text}</p>
-                <p>{item.date}</p>
+                <p className={styles.date}>{item.date}</p>
+                </div>
             </div>
         )
     );

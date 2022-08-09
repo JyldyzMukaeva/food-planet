@@ -4,28 +4,16 @@ import styles from "./Menu.module.css";
 const Menu = () => {
     return (
 
-        <>
-
-            <div className={styles.menu}>
-                <div className={styles.menu1}>
-                    <a href="/">Меню</a>
-                </div>
-                <div className={styles.menu2}>
-                <ul>
-
-                    <li><a href="#">Пицца</a></li>
-                    <li><a href="#">Бургер</a></li>
-                    <li><a href="#">Суши</a></li>
-                    <li><a href="#">Роллы</a></li>
-                    <li><a href="#">Салаты</a></li>
-                    <li><a href="#">Десерты</a></li>
-                    <li><a href="#">Напитки</a></li>
-                </ul>
-                </div>
-
-            </div>
-
-        </>
+        <div className={styles.menu}>
+            <h3>Меню</h3>
+            <p className={styles.span}><a href="#">Пицца</a></p>
+            <p><a href="#">Бургер</a></p>
+            <p><a href="#">Суши</a></p>
+            <p><a href="#">Роллы</a></p>
+            <p><a href="#">Салаты</a></p>
+            <p><a href="#">Десерты</a></p>
+            <p><a href="#">Напитки</a></p>
+        </div>
 
     );
 };
