@@ -9,19 +9,14 @@ import NotFound from "./pages/NotFound/NotFound";
 
 function App() {
     return (
-
         <BrowserRouter>
             <Header/>
             <Routes>
-                <MainPage/>
+                <Route path="/" element={<MainPage/>}/>
                 <Route path="*" element={<NotFound/>}/>
             </Routes>
-
-
             <Footer/>
         </BrowserRouter>
-
-
     );
 }
 

@@ -4,15 +4,12 @@
 }
 
 .feedbackBox{
-    /*position: absolute;*/
-    /*top:-50px;*/
     position: relative;
-    /*border-radius: 40px;*/
-    /*margin-right: 34px;*/
-
-
 }
-
+.feedbackBoxParent .userpic{
+    width: 95px;
+    height: 85px;
+}
 .feedback2{
     background-color: white;
     display: flex;
@@ -20,41 +17,37 @@
     text-align: center;
     margin-top: 49px;
     position: relative;
-    /*padding-left: 10px;*/
-
 }
 .feedback1{
     position: relative;
-
 }
-
-
 
 .feedbackBoxChild{
     position: relative;
     top: -280px;
-
-
 }
 .feedbackBoxChild h1{
     font-size: 14px;
     color: #3B7976;
-
 }
 
 .feedbackBoxChild p{
     font-size: 14px;
     color: #061817;
     text-align: center;
-
 }
 
-/*.feedback1 h1{*/
-/*    font-size: 25px;*/
-/*    color: #254F4C;*/
-/*    font-family: Roboto, serif;*/
-/*    margin-top: 56px;*/
-/*}*/
+.feedbackBoxChild img{
+    width: 24px;
+    height: 24px;
+}
+
+.feedback1 h1{
+    font-size: 25px;
+    color: #254F4C;
+    font-family: Roboto, serif;
+    margin-top: 56px;
+}
 
 .feedbackBoxChild .date{
     color: #3B7976;

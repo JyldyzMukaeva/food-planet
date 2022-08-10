@@ -1,6 +1,8 @@
 import React from 'react';
 import {feedbackArray} from "../../../../constants";
 import styles from "./Feedback.module.css";
+import backImg from '../../../../media/Images/frame.png';
+import pen from "../../../../media/Images/pen.png";
 
 const Feedback = () => {
 
@@ -9,10 +11,10 @@ const Feedback = () => {
     const feedback = feedbackArray.map(item => (
 
             <div className={styles.feedbackBoxParent}>
-                <img className={styles.feedbackBox} src={item.image1} alt=""/>
+                <img className={styles.feedbackBox} src={backImg} alt=""/>
                 <div className={styles.feedbackBoxChild}>
-                <img src={item.image} alt=""/>
-                <h1>{item.name}<img src={item.image2} alt=""/></h1>
+                <img className={styles.userpic} src={item.image} alt=""/>
+                <h1>{item.name}<img src={pen} alt=""/></h1>
                 <p>{item.text}</p>
                 <p className={styles.date}>{item.date}</p>
                 </div>
