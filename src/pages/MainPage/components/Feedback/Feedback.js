@@ -29,7 +29,10 @@ const Feedback = () => {
             </div>
 
              <div className={styles.feedback2}>
-                 {feedback}
+                 <div className={styles.feed}>
+                     {feedback}
+
+                 </div>
              </div>
 
         </>
