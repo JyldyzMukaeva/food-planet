@@ -4,13 +4,12 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    position: relative;
     margin-top: 88.75px;
 
 }
 .burgers img{
-    position: relative;
-    top: -30px;
+    position: absolute;
+    top: 153%;
 
 }
 
