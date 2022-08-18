@@ -15,11 +15,11 @@ const Header = () => {
             <img className={styles.logo} src={logo} alt=""/>
             <ul>
                 <li><a href="/">Главная</a></li>
-                <li><a href="#">Меню<img src={arrow} alt=""/></a></li>
-                <li><a href="#">Доставка</a></li>
-                <li><a href="#">Контакты</a></li>
-                <li><a href="#"><img src={phone} alt=""/>+996500405988</a></li>
-                <li><a href="#"><img src={cart} alt=""/>1</a></li>
+                <li><a href="/menu">Меню<img src={arrow} alt=""/></a></li>
+                <li><a href="*">Доставка</a></li>
+                <li><a href="*">Контакты</a></li>
+                <li><a href="*"><img src={phone} alt=""/>+996500405988</a></li>
+                <li><a href="/CartPage"><img src={cart} alt=""/>1</a></li>
             </ul>
         </div>
 

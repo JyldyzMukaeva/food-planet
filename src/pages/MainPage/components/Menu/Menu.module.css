@@ -1,3 +1,8 @@
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
 .menu{
     background-color: white;
     display: flex;
@@ -19,4 +24,94 @@
     font-family: Roboto,serif;
     color: #254F4C;
 }
+
+.pizza {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    position: relative;
+
+
+
+}
+
+.pizza img{
+    position: relative;
+    top:-50px;
+}
+
+.pizza h1{
+    color: #254F4C;
+    font-size: 20px;
+    font-family: Roboto, serif;
+}
+
+.pizza p{
+    color: #254F4C;
+    font-size: 14px;
+    font-family: Roboto, serif;
+}
+
+.pizza span{
+    color: #254F4C;
+}
+
+
+.pizzaBox{
+    background-color: white;
+    width: 264px;
+    /*height: 338px;*/
+    border-radius: 40px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 94px;
+    margin-right: 32px;
+
+}
+
+.btn1 button{
+    background-color: transparent;
+    border-radius: 100px;
+    width: 16px;
+    color: #FF583E;
+    font-size: 14px;
+    font-family: Roboto, serif;
+    border: 1px none #FF583E;
+}
+
+.btn2 button{
+    background-color: #254F4C;;
+    border-radius: 40px;
+    width: 200px;
+    height: 48px;
+    color: white;
+    font-size: 14px;
+    font-family: Roboto, serif;
+    border: none;
+}
+
+.btn3 button{
+    background-color: white;
+    border-radius: 40px;
+    width: 200px;
+    height: 48.3px;
+    color: #FF583E;
+    font-size: 14px;
+    font-family: Roboto, serif;
+    border: 1px solid #FF583E;
+    margin-top: 43.42px;
+    margin-left: 500px;
+}
+
+.choose{
+    display: flex;
+    margin-top: 24px;
+    margin-left: 910px;
+
+}
+.choose span{
+    margin-right: 16px;
+}
+
 

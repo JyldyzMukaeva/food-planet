@@ -19,13 +19,11 @@ import products from "../media/Images/products.png";
 import menu from "../media/Images/menu.png";
 import delivery2 from "../media/Images/delivery2.png";
 
-import userphoto from "../media/Images/userphoto.png";
-import frame from "../media/Images/frame.png";
-import pen from "../media/Images/pen.png";
+
 
 export const burgersArray = [
     {
-        image:burger1,
+        image:"https://www.pngkit.com/png/full/953-9533509_1-pri-whopper-cheesburger-king-hamburger-burger-king.png",
         name:"Чизбургер",
         text:"Булка, котлета,сыр,  соленый огурец, лук, помидор,\n" +
             "салат айсберг,\n" +
@@ -34,7 +32,7 @@ export const burgersArray = [
         price: 200
     },
     {
-        image:burger2,
+        image:"https://www.pngkit.com/png/full/953-9533509_1-pri-whopper-cheesburger-king-hamburger-burger-king.png",
         name:"Чизбургер",
         text:"Булка, котлета,сыр,  соленый огурец, лук, помидор,\n" +
             "салат айсберг,\n" +
@@ -43,7 +41,7 @@ export const burgersArray = [
         price: 200
     },
     {
-        image:burger3,
+        image:"https://www.pngkit.com/png/full/953-9533509_1-pri-whopper-cheesburger-king-hamburger-burger-king.png",
         name:"Чизбургер",
         text:"Булка, котлета,сыр,  соленый огурец, лук, помидор,\n" +
             "салат айсберг,\n" +
@@ -52,7 +50,7 @@ export const burgersArray = [
         price: 200
     },
     {
-        image:burger4,
+        image:"https://www.pngkit.com/png/full/953-9533509_1-pri-whopper-cheesburger-king-hamburger-burger-king.png",
         name:"Чизбургер",
         text:"Булка, котлета,сыр,  соленый огурец, лук, помидор,\n" +
             "салат айсберг,\n" +
